@@ -10,12 +10,27 @@
     <header></header>
     <main>
       <label for="form-card" style="text-shadow: 1px 1px 5px black"
-        >Fill the form</label
+        >Sign UP</label
       >
       <div class="form-card" id="form-card">
+        <div>
+          <img
+            src="img/form_pic.avif"
+            alt="Background Picture for style and taste."
+            id="side-img"
+          />
+        </div>
+
         <form action="" method="post">
+          <p>
+            This is not a real service, sign up not and get a
+            <strong>60% DISCOUNT</strong>. You have nothing to lose and all to
+            gain with out 100% money back guarantee ;). Subscribe to our second
+            tier service and get 2 months for free.
+          </p>
+
           <div>
-            <label for="name">Enter your name: </label>
+            <label for="name">First name: </label>
             <input
               type="text"
               id="name"
@@ -23,69 +38,8 @@
               style="width: 400px; max-width: 100%"
             />
           </div>
-          <div
-            id="gender"
-            style="display: flex; margin: 20px 0px; max-width: 60%"
-          >
-            <label for="gender" style="margin-right: 20px">Gender: </label>
-
-            <input type="radio" id="male" value="male" name="gender" />
-
-            <label for="male" style="margin-right: 20px">Male</label>
-
-            <input type="radio" id="female" value="female" name="gender" />
-
-            <label for="female">Female</label>
-          </div>
-          <div id="transportation">
-            <label for="transport"
-              >What mode of transportation do you use?</label
-            >
-            <select
-              name="transport"
-              id="transport"
-              style="width: 400px; max-width: 100%"
-            >
-              <optgroup label="I don't drive">
-                <option value="walk">I walk</option>
-                <option value="public_transport">I use public transport</option>
-              </optgroup>
-              <optgroup label="Car">
-                <option value="mercedes">Mercedes</option>
-                <option value="tesla">Tesla</option>
-                <option value="volvo">Volvo</option>
-                <option value="bmw">BMW</option>
-                <option value="mini">Mini</option>
-                <option value="ford">Ford</option>
-              </optgroup>
-            </select>
-          </div>
-          <fieldset id="foods" style="margin: 10px;">
-            <legend>What's your favorite food?</legend>
-            <label for="pizza">Pizza</label>
-            <input type="checkbox" name="food" id="pizza " class="pickfood" />
-            <label for="potatoes">Potatoes</label>
-            <input
-              type="checkbox"
-              name="food"
-              id="potatoes "
-              class="pickfood"
-            />
-            <label for="burger">Burger</label>
-            <input type="checkbox" name="food" id="burger" class="pickfood" />
-            <label for="pie">Pie</label>
-            <input type="checkbox" name="food" id="pie" class="pickfood" />
-            <label for="milkshake">MilkShake</label>
-            <input
-              type="checkbox"
-              name="food"
-              id="chocolate_milkshake"
-              class="pickfood"
-            />
-          </fieldset>
           <div class="buttons">
-            <button type="submit">Submit</button>
-            <button type="reset">Reset</button>
+            <button type="submit">Create Account</button>
           </div>
         </form>
       </div>
